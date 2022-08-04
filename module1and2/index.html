@@ -6,24 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy</title>
+    <link rel="styleSheet" href="style.css">
 </head>
 
 <body>
     <header>
         <h1>Michael Pytlowany</h1>
         <nav>
-            <ul>
+            <ul class="navList">
                 <li><a href="#myStart">My Start</a></li>
                 <li><a href="#details">Details</a></li>
                 <li><a href="#socialMedia">Social Media</a></li>
+                <li><a href="someWords.html">Some Words</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <img src="assets/images/jerkyFPV_Black.png" height="200px" alt="Jerky_FPV">
+        <img id="profilePic" src="assets/images/jerkyFPV_Black.png" height="200px" alt="Jerky_FPV">
         <p>Hello! My name is Michael Pytlowany and I enjoy making things with many different mediums.</p>
         <h2 id="myStart">How I got my start</h2>
-        <p>I first became interested in coding when I got my 3d printer. I was in the process of adding a
+        <p class="overview">I first became interested in coding when I got my 3d printer. I was in the process of adding
+            a
             series of upgrades. In order to get the printer where I wanted it to be, I had to crack open the
             firmware and customize it. A lot of questions and a few sleepless nights later and I am still using that
             same
@@ -38,6 +41,10 @@
             but am very confident in this new journey.
         </p>
         <h2 id="details">Details</h2>
+        <blockquote id="joke">
+            <p>Why did the chicken cross the road?</p>
+            <p>To get to the udder side</p>
+        </blockquote>
         <h3>Favorites</h3>
         <ol>
             <li>My favoite <strong>book</strong> is <cite>The Four Agreements</cite> by don Miguel Ruiz.</li>
@@ -65,14 +72,20 @@
     </main>
     <footer>
         <h3 id="socialMedia">Social Media</h3>
-        <ul>
+        <ul class="navList">
             <li><img src="assets/images/GitHub-Mark-64px.png" height="50px" alt="gitHub"><a
                     href="https://github.com/Mikepyt87">gitHub</a></li>
             <li><img src="assets/images/LI-In-Bug.png" height="50px" alt="linkedIn"><a
                     href="https://www.linkedin.com/in/michaelpytlowany/">LinkedIn</a></li>
         </ul>
     </footer>
-    <link rel="stylesheet" href="'style'.css">
+    <div class="numbersBox">
+        <div class="colorBoxColorBox1">1</div>
+        <div class="colorBoxColorBox2">2</div>
+        <div class="colorBoxColorBox3">3</div>
+        <div class="colorBoxColorBox4">4</div>
+    </div>
+
 </body>
 
 </html>
